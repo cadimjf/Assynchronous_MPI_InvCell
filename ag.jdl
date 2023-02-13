@@ -1,0 +1,12 @@
+[
+	JobType = "MPICH";
+	Executable="ag";
+	CPUNumber = 2;
+	StdOutput = "ag.out";
+	StdError = "ag.err";
+	InputSandbox = {"ag", "dadosControle30.txt", "condicoes_iniciais"};
+	OutputSandbox = {"ag.out","ag.err","population.txt","fitness.txt"};
+	Arguments = "2 8 dadosControle30.txt";
+	ShallowRetryCount = 3;
+]
+

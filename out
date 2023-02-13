@@ -1,0 +1,502 @@
+g++ -I../../sundials-2.3.0/src/sundials -I../../sundials-2.3.0/include/sundials -I../../sundials-2.3.0/include -I../../sundials-2.3.0/include/cvode -I../../sundials-2.3.0/include -I../../sundials-2.3.0/include/nvector -L ../../sundials2.3.0/src/nvec_ser -L ../../sundials-2.3.0/src/cvode -c Operators.cpp -g3 -o Operators.o -lsundials_cvode -lsundials_nvecserial -lm -w
+In file included from Bondarenko_V5.2_SolveODE.hpp:5,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/sundials/sundials_types.h:50:38: sundials/sundials_config.h: No such file or directory
+In file included from ../../sundials-2.3.0/include/cvode/cvode.h:37,
+                 from Bondarenko_V5.2_SolveODE.hpp:6,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:73: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:73: error: expected `;' before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:74: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:74: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:75: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:75: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:75: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:75: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:76: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:76: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:79: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:79: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:82: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:82: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:83: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:83: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:83: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:83: error: ISO C++ forbids declaration of `nvdotprod' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:84: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:84: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:84: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:84: error: ISO C++ forbids declaration of `nvmaxnorm' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:84: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:85: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:85: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:85: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:85: error: ISO C++ forbids declaration of `nvwrmsnorm' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:85: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:86: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:86: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:86: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:86: error: ISO C++ forbids declaration of `nvwrmsnormmask' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:86: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:87: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:87: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:87: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:87: error: ISO C++ forbids declaration of `nvmin' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:87: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:88: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:88: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:88: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:88: error: ISO C++ forbids declaration of `nvwl2norm' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:88: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:89: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:89: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:89: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:89: error: ISO C++ forbids declaration of `nvl1norm' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:89: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:90: error: `realtype' is not a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:90: error: ISO C++ forbids declaration of `parameter' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:93: error: expected identifier before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:93: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:93: error: `realtype' declared as function returning a function
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:93: error: ISO C++ forbids declaration of `nvminquotient' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:93: error: `int _generic_N_Vector_Ops::realtype(int*)' and `int _generic_N_Vector_Ops::realtype(int*)' cannot be overloaded
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:320: error: expected constructor, destructor, or type conversion before '*' token
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:321: error: variable or field `N_VSetArrayPointer' declared void
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:321: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:321: error: `v_data' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:321: error: expected primary-expression before "v"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:321: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: variable or field `N_VLinearSum' declared void
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: expected primary-expression before "x"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: expected primary-expression before "y"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:322: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:323: error: variable or field `N_VConst' declared void
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:323: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:323: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:323: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:326: error: variable or field `N_VScale' declared void
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:326: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:326: error: expected primary-expression before "x"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:326: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:326: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:329: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:329: error: ISO C++ forbids declaration of `b' with no type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:330: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:331: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:332: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:333: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:334: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:335: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:336: error: `realtype' does not name a type
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:337: error: variable or field `N_VCompare' declared void
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:337: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:337: error: expected primary-expression before "x"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:337: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:337: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_nvector.h:340: error: `realtype' does not name a type
+In file included from Bondarenko_V5.2_SolveODE.hpp:6,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/cvode/cvode.h:177: error: typedef `CVRhsFn' is initialized (use __typeof__ instead)
+../../sundials-2.3.0/include/cvode/cvode.h:177: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/cvode/cvode.h:177: error: expected primary-expression before "y"
+../../sundials-2.3.0/include/cvode/cvode.h:178: error: expected primary-expression before "ydot"
+../../sundials-2.3.0/include/cvode/cvode.h:178: error: expected primary-expression before "void"
+../../sundials-2.3.0/include/cvode/cvode.h:199: error: typedef `CVRootFn' is initialized (use __typeof__ instead)
+../../sundials-2.3.0/include/cvode/cvode.h:199: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/cvode/cvode.h:199: error: expected primary-expression before "y"
+../../sundials-2.3.0/include/cvode/cvode.h:199: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/cvode/cvode.h:199: error: `gout' was not declared in this scope
+../../sundials-2.3.0/include/cvode/cvode.h:200: error: expected primary-expression before "void"
+../../sundials-2.3.0/include/cvode/cvode.h:396: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:396: error: ISO C++ forbids declaration of `hin' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:397: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:397: error: ISO C++ forbids declaration of `hmin' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:398: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:398: error: ISO C++ forbids declaration of `hmax' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:399: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:399: error: ISO C++ forbids declaration of `tstop' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:403: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:403: error: ISO C++ forbids declaration of `nlscoef' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:407: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:407: error: ISO C++ forbids declaration of `reltol' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:456: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:457: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:457: error: ISO C++ forbids declaration of `t0' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:457: error: ISO C++ forbids declaration of `reltol' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:493: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:494: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:494: error: ISO C++ forbids declaration of `t0' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:494: error: ISO C++ forbids declaration of `reltol' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:618: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:619: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:619: error: ISO C++ forbids declaration of `tout' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:619: error: ISO C++ forbids declaration of `tret' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:659: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:659: error: ISO C++ forbids declaration of `t' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:723: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:723: error: ISO C++ forbids declaration of `hinused' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:724: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:724: error: ISO C++ forbids declaration of `hlast' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:725: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:725: error: ISO C++ forbids declaration of `hcur' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:726: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:726: error: ISO C++ forbids declaration of `tcur' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:727: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:727: error: ISO C++ forbids declaration of `tolsfac' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:743: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:743: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:744: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:744: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode.h:744: error: ISO C++ forbids declaration of `hinused' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:744: error: ISO C++ forbids declaration of `hlast' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:744: error: ISO C++ forbids declaration of `hcur' with no type
+../../sundials-2.3.0/include/cvode/cvode.h:744: error: ISO C++ forbids declaration of `tcur' with no type
+In file included from ../../sundials-2.3.0/include/sundials/sundials_dense.h:46,
+                 from ../../sundials-2.3.0/include/cvode/cvode_dense.h:25,
+                 from Bondarenko_V5.2_SolveODE.hpp:7,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:49: error: expected constructor, destructor, or type conversion before '*' token
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:102: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:102: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:102: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:102: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:102: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:102: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: variable or field `denGETRS' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: `b' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:120: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:133: error: variable or field `denzero' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:133: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:133: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:133: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:133: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:133: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: variable or field `dencopy' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: `b' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:146: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: variable or field `denscale' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:159: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:175: error: variable or field `denaddI' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:175: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:175: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:175: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:175: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:200: error: variable or field `denfree' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:200: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:200: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:216: error: variable or field `denprint' declared void
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:216: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:216: error: `a' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:216: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:216: error: expected primary-expression before "long"
+../../sundials-2.3.0/include/sundials/sundials_smalldense.h:216: error: initializer expression list treated as compound expression
+In file included from ../../sundials-2.3.0/include/cvode/cvode_dense.h:25,
+                 from Bondarenko_V5.2_SolveODE.hpp:7,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/sundials/sundials_dense.h:80: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/sundials/sundials_dense.h:80: error: expected `;' before '*' token
+../../sundials-2.3.0/include/sundials/sundials_dense.h:211: error: `realtype' has not been declared
+../../sundials-2.3.0/include/sundials/sundials_dense.h:211: error: ISO C++ forbids declaration of `b' with no type
+../../sundials-2.3.0/include/sundials/sundials_dense.h:249: error: variable or field `DenseScale' declared void
+../../sundials-2.3.0/include/sundials/sundials_dense.h:249: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/sundials/sundials_dense.h:249: error: expected primary-expression before "A"
+../../sundials-2.3.0/include/sundials/sundials_dense.h:249: error: initializer expression list treated as compound expression
+In file included from Bondarenko_V5.2_SolveODE.hpp:7,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/cvode/cvode_dense.h:106: error: `realtype' has not been declared
+../../sundials-2.3.0/include/cvode/cvode_dense.h:108: error: ISO C++ forbids declaration of `t' with no type
+In file included from Bondarenko_V5.2_SolveODE.hpp:9,
+                 from Operators.cpp:10:
+../../sundials-2.3.0/include/nvector/nvector_serial.h:72: error: ISO C++ forbids declaration of `realtype' with no type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:72: error: expected `;' before '*' token
+../../sundials-2.3.0/include/nvector/nvector_serial.h:184: error: `realtype' has not been declared
+../../sundials-2.3.0/include/nvector/nvector_serial.h:184: error: ISO C++ forbids declaration of `v_data' with no type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:239: error: expected constructor, destructor, or type conversion before '*' token
+../../sundials-2.3.0/include/nvector/nvector_serial.h:240: error: variable or field `N_VSetArrayPointer_Serial' declared void
+../../sundials-2.3.0/include/nvector/nvector_serial.h:240: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:240: error: `v_data' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:240: error: expected primary-expression before "v"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:240: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: variable or field `N_VLinearSum_Serial' declared void
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: expected primary-expression before "x"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: expected primary-expression before "y"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:241: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/nvector/nvector_serial.h:242: error: variable or field `N_VConst_Serial' declared void
+../../sundials-2.3.0/include/nvector/nvector_serial.h:242: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:242: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:242: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/nvector/nvector_serial.h:245: error: variable or field `N_VScale_Serial' declared void
+../../sundials-2.3.0/include/nvector/nvector_serial.h:245: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:245: error: expected primary-expression before "x"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:245: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:245: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/nvector/nvector_serial.h:248: error: `realtype' has not been declared
+../../sundials-2.3.0/include/nvector/nvector_serial.h:248: error: ISO C++ forbids declaration of `b' with no type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:249: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:250: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:251: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:252: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:253: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:254: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:255: error: `realtype' does not name a type
+../../sundials-2.3.0/include/nvector/nvector_serial.h:256: error: variable or field `N_VCompare_Serial' declared void
+../../sundials-2.3.0/include/nvector/nvector_serial.h:256: error: `realtype' was not declared in this scope
+../../sundials-2.3.0/include/nvector/nvector_serial.h:256: error: expected primary-expression before "x"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:256: error: expected primary-expression before "z"
+../../sundials-2.3.0/include/nvector/nvector_serial.h:256: error: initializer expression list treated as compound expression
+../../sundials-2.3.0/include/nvector/nvector_serial.h:259: error: `realtype' does not name a type
+In file included from Operators.cpp:10:
+Bondarenko_V5.2_SolveODE.hpp:15: error: `realtype' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp:15: error: expected primary-expression before "dependent_variable__"
+Bondarenko_V5.2_SolveODE.hpp:15: error: expected primary-expression before "dep_var_dot__"
+Bondarenko_V5.2_SolveODE.hpp:15: error: expected primary-expression before "void"
+Bondarenko_V5.2_SolveODE.hpp:15: error: initializer expression list treated as compound expression
+Bondarenko_V5.2_SolveODE.hpp:185: error: `realtype' does not name a type
+Bondarenko_V5.2_SolveODE.hpp: In constructor `Solveode::Solveode(double, double, int)':
+Bondarenko_V5.2_SolveODE.hpp:422: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:422: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:425: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:425: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:428: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:428: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:431: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:431: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:434: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:434: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:437: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:437: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:440: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:440: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:443: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:443: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:446: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:446: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:449: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:449: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:452: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:452: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:455: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:455: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:458: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:458: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:461: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:461: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:464: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:464: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:467: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:467: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:470: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:470: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:473: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:473: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:476: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:476: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:479: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:479: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:482: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:482: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:485: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:485: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:488: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:488: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:491: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:491: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:494: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:494: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:497: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:497: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:500: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:500: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:503: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:503: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:505: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:505: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:507: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:507: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:509: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:509: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:511: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:511: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:514: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:514: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:517: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:517: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:520: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:520: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:523: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:523: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:525: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:525: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:528: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:528: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:531: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:531: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:534: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:534: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:537: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:537: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:554: error: `reltol__' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp: In member function `int Solveode::setVariables(int, double)':
+Bondarenko_V5.2_SolveODE.hpp:651: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:652: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:653: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:654: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:655: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:656: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:657: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:658: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:659: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:660: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:661: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:662: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:663: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:664: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:665: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:666: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:667: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:668: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:669: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:670: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:671: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:672: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:673: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:674: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:675: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:676: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:677: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:678: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:679: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:680: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:681: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:682: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:683: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:684: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:685: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:686: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:687: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:688: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:689: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:690: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:691: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp: In member function `void Solveode::solveCVODE(int, int)':
+Bondarenko_V5.2_SolveODE.hpp:1048: error: `realtype' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp:1048: error: expected `;' before "tout"
+Bondarenko_V5.2_SolveODE.hpp:1054: error: `tout' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp:1218: error: `tout' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp:1221: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1222: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1223: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1224: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1225: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1226: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1227: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1228: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1229: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1230: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1231: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1232: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1233: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1234: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1235: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1236: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1237: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1238: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1239: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1240: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1241: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1242: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1243: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1244: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1245: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1246: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1247: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1248: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1249: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1250: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1251: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1252: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1253: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1254: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1255: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1256: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1257: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1258: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1259: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1260: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1261: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp: In member function `void Solveode::reInitCVODE()':
+Bondarenko_V5.2_SolveODE.hpp:1903: error: `reltol__' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp: In member function `void Solveode::setReltol(double)':
+Bondarenko_V5.2_SolveODE.hpp:1910: error: `reltol__' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp: In member function `void Solveode::setAbstol(int, double)':
+Bondarenko_V5.2_SolveODE.hpp:1916: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1917: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1918: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1919: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1920: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1921: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1922: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1923: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1924: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1925: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1926: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1927: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1928: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1929: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1930: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1931: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1932: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1933: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1934: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1935: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1936: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1937: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1938: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1939: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1940: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1941: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1942: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1943: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1944: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1945: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1946: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1947: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1948: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1949: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1950: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1951: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1952: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1953: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1954: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1955: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp:1956: error: 'struct _N_VectorContent_Serial' has no member named 'data'
+Bondarenko_V5.2_SolveODE.hpp: At global scope:
+Bondarenko_V5.2_SolveODE.hpp:2275: error: redefinition of `int f__'
+Bondarenko_V5.2_SolveODE.hpp:15: error: `int f__' previously defined here
+Bondarenko_V5.2_SolveODE.hpp:2275: error: `realtype' was not declared in this scope
+Bondarenko_V5.2_SolveODE.hpp:2275: error: expected primary-expression before "dependent_variable__"
+Bondarenko_V5.2_SolveODE.hpp:2275: error: expected primary-expression before "dep_var_dot__"
+Bondarenko_V5.2_SolveODE.hpp:2275: error: expected primary-expression before "void"
+Bondarenko_V5.2_SolveODE.hpp:2275: confused by earlier errors, bailing out
+make: *** [Operators.o] Error 1
